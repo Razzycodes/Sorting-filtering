@@ -1,0 +1,56 @@
+body{
+  height: 100% ;
+}
+html{
+  height: 100%;
+
+}
+
+.Header_container{
+  position: relative;
+  height: 100vh;
+  padding: 0px 50px;
+
+}
+
+td, th{
+  border: 1px solid #cccccc;
+  padding: 8px;
+}
+
+th{
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.myBody{
+  display: flex;
+}
+.span{
+  display: none;
+}
+
+tr:nth-child(even){
+ background-color: #dddddddd;
+}
+/* 
+tr:hover{
+  color: white;
+  background-color: black;
+} */
+
+@media only screen and (max-width: 600px){
+  .the_nav li {
+    padding: 0 12px;
+  }
+.Header_container{
+  position: relative;
+  height: 100%;
+  padding: 0px 9px;
+
+}
+
+.classes{
+  padding: 0px 13px;
+}
+}
+
